@@ -1,0 +1,7 @@
+def sortstring(str):
+    return''.joins(sorted(str))
+str=input("enter string")
+res=''.join(sorted(str,reverse=True))
+print(res)
+b=sorted(str)
+print(b)
