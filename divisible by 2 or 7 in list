@@ -1,0 +1,12 @@
+start = int(input("Enter start number:"))
+end = int(input("Enter last number:"))
+a=[]
+for i in (range(start,end+1)):
+    if((i%2==0) and (i%5==0)):
+        a.append(i)
+print(a)        
+b=[]       
+for i in reversed(range(start,end+1)):
+    if((i%2==0) and (i%5==0)):
+        b.append(i)
+print(b)
