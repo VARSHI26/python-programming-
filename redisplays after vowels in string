@@ -1,0 +1,10 @@
+def remove_vowels(s):
+    new_str=""
+    for i in s:
+        if i in "aeiou":
+            pass
+        else:
+            new_str=new_str+i
+    print(new_str)
+str="programming"
+remove_vowels(str)
