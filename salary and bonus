@@ -1,0 +1,9 @@
+y=int(input("enter number of years"))
+sal=int(input("enter the salary"))
+if(y>=2):
+    bonus=(10/100*sal)
+    total=sal+bonus
+    print("the total bonus of employee=",bonus)
+    print("the total salary of employee=",total)
+else:
+    print("the total salary of employee=",sal
