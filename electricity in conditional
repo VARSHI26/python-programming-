@@ -1,0 +1,12 @@
+n=input("enter thehome
+        which type of connection iit was home/commercial")
+m=int(input("enter the eletricity consumed"))
+if m<=350:
+    a=M*3.1
+    print("elctricity bill is:",a)
+elif m>=500 and m>=600:
+    b=m*5.3
+    print(" electricity bill is:",b)
+else:
+    c=m*7.9
+    print("electricity bill is:",c)
