@@ -1,0 +1,27 @@
+def add(a,b):
+    add=a+b
+    return add
+def sub(c,d):
+    sub=c-d
+    return sub
+def mul(e,f):
+    mul=e*f
+    return mul
+def div(g,h):
+    div=g/h
+    return div
+x=int(input("enter the number"))
+y=int(input("enter number"))
+m=input("enter the choice")
+if(m=='+'):
+    z=add(x,y)
+    print("sum",z)
+elif(m=='-'):
+    o=sub(x,y)
+    print("subtract",o)
+elif(m=='*'):
+    p=mul(x,y)
+    print("mul",p)
+else:
+    q=div(x,y)
+    print("div",q)
