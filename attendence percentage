@@ -1,0 +1,13 @@
+k=int(input("enter the number of classes held"))
+l=int(input("enter  the number of classes attended"))
+z=(l/k)*100
+print("attendence percentage",z)
+print("medical issue ? Y or N")
+medicalissue=input()
+if(medicalissue=='Y'):
+    print("you are eligible")
+else:
+    if(z>=75):
+        print("you are eligible")
+    else:
+        print("you are not eligible")
