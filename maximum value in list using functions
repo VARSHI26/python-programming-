@@ -1,0 +1,8 @@
+def max(list):
+    max=list[0]
+    for i in list:
+        if(i> max):
+            max=i
+    return max
+list=[4,6,8,24,12,2]
+print("largest is",max(list))
