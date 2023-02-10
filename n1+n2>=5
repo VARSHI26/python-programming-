@@ -1,0 +1,14 @@
+def sum(a,b):
+    sum=a+b
+    return sum
+x=int(input("enter the value of a="))
+y=int(input("enter the value of b="))
+z=sum(x,y)
+if z > 5:
+      print("sum is greater than 5")
+elif z < 5:
+    print("sum is less than 5")
+elif z==5:
+    print("sum is equal to 5")
+else:
+    print("invalid")
