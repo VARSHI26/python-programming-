@@ -1,0 +1,29 @@
+def add(a,b):
+    add=a+b
+    return add
+def sub(a,b):
+    sub=a-b
+    return sub
+def mul(a,b):
+    mul=a*b
+    return mul
+def div(a,b):
+    div=a/b
+    return div
+x=int(input("enter the value of a="))
+y=int(input("enter the value of b="))
+choice=int(input("enter the choice="))
+if(choice==1):
+    z1=add(x,y)
+    print("sum",z1)
+elif(choice==2):
+    z2=sub(x,y)
+    print("difference",z2)
+elif(choice==3):
+    z3=mul(x,y)
+    print("product",z3)
+elif(choice==4):
+    z4=div(x,y)
+    print("quotient",z4)
+else:
+    print("invalid")
