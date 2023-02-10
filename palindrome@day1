@@ -1,0 +1,11 @@
+num=input("Enter X : ")
+i=0
+length=len(num)
+if(len(num)%2==0):
+    length=len(num)+1
+for i in range(length):
+   if num[i]!=num[-1-i]:
+      print(num,"false")
+      break
+else:
+   print(num,"true")
