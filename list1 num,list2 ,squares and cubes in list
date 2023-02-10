@@ -1,0 +1,12 @@
+r1=int(input("enter r1:"))
+r2=int(input("enter r2:"))
+numbers=[]
+squares=[]
+cubes=[]
+for i in range(r1,r2+1):
+    numbers.append(i)
+    squares.append(i**2)
+    cubes.append(i**3)
+print("numbers",numbers)
+print("squares",squares)
+print("cubes",cubes)
