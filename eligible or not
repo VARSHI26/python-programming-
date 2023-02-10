@@ -1,0 +1,7 @@
+age=int(input("enter no of years"))
+if(age>=18):
+    print("eligible to vote")
+else:
+    print("not eligible")
+    d=18-age
+    print("difference",d)
