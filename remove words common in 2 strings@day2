@@ -1,0 +1,22 @@
+def common_words(string1,string2):
+   
+   word_count = {}
+
+   for i in string1.split():
+      word_count[i] = word_count.get(i, 0) + 1
+
+   for i in string2.split():
+      word_count[i] = word_count.get(i, 0) + 1
+
+   return [i for i in word_count if word_count[i] == 1]
+
+string1 =input("enter a string1")
+print("The first string is :")
+print(string1)
+
+string2 =input("enter a string1")
+print("The second string is :")
+print(string2)
+
+print("The result is :")
+print(common_words(string1, string2))
