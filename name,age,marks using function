@@ -1,0 +1,18 @@
+def name(n):
+    name='manasa'
+    return name
+def age(a):
+    age=18
+    return age
+def marks(m):
+    marks=[100,99,98,78]
+    return marks
+n=input("enter name")
+a=int(input("enter age"))
+m=int(input("enter amrks"))
+d=name👎
+e=age(a)
+f=marks(m)
+print("name :",d)
+print("age:",e)
+print("marks:",f)
