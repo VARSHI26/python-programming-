@@ -1,0 +1,17 @@
+def findkmin(k,array):
+    array.sort(reverse=True)
+    print("min element is:",array[k-1])
+def findkmax(k,array):
+    array.sort()
+    print("max element:",array[k-1])
+
+k=6
+array=[45,1,2,5,6,7,]
+findkmax(k,array)
+a=array[k-1]
+findkmin(k,array)
+b=array[k-1]
+sum=a+b
+min=a-b
+print(sum)
+print(min)
